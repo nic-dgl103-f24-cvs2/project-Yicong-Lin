@@ -139,3 +139,19 @@ section.benefits img {
 }
 /*-------- end of BENEFITS SECTION --------*/
 
+/*-------- CALL-TO-ACTION SECTION --------*/
+section.call-to-action h2 {
+    color: #f1bb08;
+}
+
+section.call-to-action p {
+    color: #cec9c9; 
+}
+
+section.call-to-action a {
+    /* background-color: #302f2f; */
+    background-color: black;
+    display: inline-block;
+}
+/*-------- end of CALL-TO-ACTION SECTION --------*/
+
