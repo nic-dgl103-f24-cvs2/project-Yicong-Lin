@@ -41,8 +41,10 @@ li a {
 
 /*-------- UTILITY ---------*/
 .content-width {
-    width: 334px;
+    width: 70%;
+    min-width: 334px;
     margin: auto;
+    text-align: center;
 }
 
 .logo-background { /* for those sections including a logo */
@@ -61,9 +63,13 @@ a.button {
   margin: 26px 0;
 }
 
+section {
+    padding: 10px 0;
+}
+
 /*-------- HEADER --------*/
 header * {
-    color: rgb(206, 201, 201);
+    color: #cec9c9;
 }
 
 header div {
@@ -95,10 +101,6 @@ ul.show-items { /* show navigation items when clicking on toggle button */
 /*-------- end of HEADER --------*/
 
 /*-------- HERO SECTION --------*/
-section.hero {
-    text-align: center;
-}
-
 section.hero img {
     width: 100%;
 }
@@ -107,4 +109,23 @@ section.hero a {
     display: inline-block;
 }
 /*-------- end of HERO SECTION --------*/
+
+/*-------- ABOUT-US SECTION --------*/
+section.about-us h2, h3 {
+    color: #f1bb08;
+}
+
+section.about-us p {
+    color: #cec9c9; 
+}
+
+section.about-us img {
+    width: 100%;
+}
+
+img#who-are-we {
+    width: 25%;
+    border-radius: 50%;
+}
+/*-------- end of ABOUT-US SECTION --------*/
 
