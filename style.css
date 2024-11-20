@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
@@ -169,3 +169,153 @@ footer * {
     padding: 15px;
 }
 /*-------- end of FOOTER --------*/
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    margin: 10px 0;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    margin: 10px 0;
+  }
+
+  .content-width {
+    width: 75%;
+  }
+
+  /*-------- large HEADER --------*/
+  header nav {
+    display: initial;
+    width: 100%;
+  }
+
+  header ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .toggle {
+    display: none;
+  }
+  /*-------- end of large HEADER --------*/
+
+  /*-------- large HERO SECTION --------*/
+  section.hero {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  section.hero p {
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  section.hero img {
+    grid-column: 1;
+    grid-row: 1/4;
+  }
+
+  section.hero a {
+    margin: auto;
+  }
+  /*-------- end of large HERO SECTION --------*/
+
+  /*-------- large ABOUT-US SECTION --------*/
+  section.about-us div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    padding-bottom: 10px;
+  }
+
+  section.about-us .sub-about-us {
+    border: 1px solid #cec9c9;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  section.about-us h2 {
+    grid-column: 1/3;
+  }
+
+  section.about-us img {
+    width: 33%;
+  }
+  /*-------- end of large ABOUT-US SECTION --------*/
+
+  /*-------- large BENEFITS SECTION --------*/
+  section.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+
+  section.benefits h2 {
+    grid-column: 1/4;
+  }
+  /*-------- end of large BENEFITS SECTION --------*/
+
+  /*-------- large CALL-TO-ACTION SECTION --------*/
+  /* no change */
+
+  /*-------- large FOOTER --------*/
+  footer div.content-width {
+    display: grid;
+    grid-template-columns: 1fr 3fr 7fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: start;
+  }
+
+  footer div.content-width img.logo {
+    grid-row: 1/3;
+    grid-column: 1;
+  }
+
+  footer nav {
+    grid-row: 1;
+    grid-column: 2/4;
+    width: 40%;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer div.container {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer p.address {
+    grid-row: 2;
+    grid-column: 3;
+    margin: 0;
+  }
+  /*-------- end of large FOOTER --------*/
+}
