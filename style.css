@@ -155,3 +155,17 @@ section.call-to-action a {
 }
 /*-------- end of CALL-TO-ACTION SECTION --------*/
 
+/*-------- FOOTER --------*/
+footer {
+    padding-top: 10px;
+}
+
+footer * {
+    color: #cec9c9;
+}
+
+.disclaimer {
+    border-top: 1px solid;
+    padding: 15px;
+}
+/*-------- end of FOOTER --------*/
