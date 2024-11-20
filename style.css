@@ -1,0 +1,52 @@
+/*-------- GLOBAL STYLES --------*/
+* {
+    box-sizing: border-box;
+    color: #d6d4d4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/*-------- TYPOGRAPHY --------*/
+h1, h2, h3 {    /* Other headings are not used */
+    font-family: "Playfair Display SC", serif;
+    color: #770404;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*-------- UTILITY ---------*/
+.content-width {
+    width: 334px;
+    margin: auto;
+}
+
+.logo-background { /* for those sections including a logo */
+    background-color: black;
+}
+
+.dark-background {
+    background-color: brown;
+}
+
