@@ -129,3 +129,13 @@ img#who-are-we {
 }
 /*-------- end of ABOUT-US SECTION --------*/
 
+/*-------- BENEFITS SECTION --------*/
+section.benefits div.benefits {
+    padding-top: 20px;
+}
+
+section.benefits img {
+    width: 50%;
+}
+/*-------- end of BENEFITS SECTION --------*/
+
