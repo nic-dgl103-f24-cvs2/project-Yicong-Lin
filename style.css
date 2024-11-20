@@ -94,3 +94,17 @@ ul.show-items { /* show navigation items when clicking on toggle button */
 }
 /*-------- end of HEADER --------*/
 
+/*-------- HERO SECTION --------*/
+section.hero {
+    text-align: center;
+}
+
+section.hero img {
+    width: 100%;
+}
+
+section.hero a {
+    display: inline-block;
+}
+/*-------- end of HERO SECTION --------*/
+
