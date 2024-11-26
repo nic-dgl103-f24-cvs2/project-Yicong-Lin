@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="logo-background">
+    <div class="content-width">
+      <img src="./images/logo.jpg" width="50" alt="Logo">
+      <nav>
+        <ul id="nav-items">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./recipes-service.html">Recipes & Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+  </main>
+  <footer class="logo-background">
+    <div class="content-width">
+      <img class="logo" src="./images/logo.jpg" width="100" alt="Logo">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./recipes-service.html">Recipes & Service</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <p>Phone: <a href="tel: 250-714-5999">250-714-5999</a></p>
+        <a>
+          <!-- This image is downloaded from www.freepik.com -->
+          <img src="./images/instagram.png" width="30" alt="Instagram">
+        </a>
+        <a>
+          <!-- This image is downloaded from www.freepik.com -->
+          <img src="./images/twitter.png" width="30" alt="Twitter">
+        </a>
+      </div>
+      <p class="address">Address: 801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+    </div>
+    <div class="disclaimer">This is a fictional website that was designed and coded as an educational exercise. It is
+      not intended to be seen outside of the class environment. None of the content and images were approved by the
+      business owner.</div>
+  </footer>
+  <script>
+    function showNav() {
+      var element = document.getElementById("nav-items");
+      element.classList.toggle("show-items");
+    }
+  </script>
+</body>
+
+</html>
