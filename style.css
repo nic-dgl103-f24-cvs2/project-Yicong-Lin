@@ -311,7 +311,7 @@ section.contact-form span {
 
 section.contact-form label:focus-within>span, input:not(:placeholder-shown) + span, textarea:not(:placeholder-shown) + span {
   color: rgb(107, 29, 29);
-  transform:translateY(-15px);
+  transform:translateY(-18px);
 }
 
 section.contact-form button {
@@ -485,6 +485,21 @@ footer * {
   }
   /*-------- end of large SERVICE SECTION --------*/
   /*======== end of Recipes & Service Page of Desktop ========*/
+
+  /*======== Contact Page of Desktop ========*/
+  section.contact-information {
+    display: flex;
+  }
+
+  section.contact-information div {
+    width: 50%;
+    padding-right: 15px;
+  }
+
+  section.contact-information iframe {
+    width: 50%;
+  }
+  /*======== end of Contact Page of Desktop ========*/
 
   /*-------- large CALL-TO-ACTION SECTION --------*/
   /* no change */
