@@ -31,28 +31,37 @@
         </div>
     </header>
     <main>
-        <section class="contact-form">
+        <section class="contact-form content-width">
             <h1>Contact Us</h1>
             <form action="#" method="post">
-                <label for="user-name">Name</label>
-                <input type="text" name="user-name">
-                <label for="user-email">Email</label>
-                <input type="email" name="user-email" required>
-                <label for="user-message">Message</label>
-                <textarea name="user-message">How can we serve you?</textarea>
-                <label for="files">Attach Files</label>
-                <input type="file" name="files">
+                <label for="user-name">
+                    <input type="text" name="user-name" id="user-name" placeholder="Name">
+                    <span>Name</span>
+                </label>
+                <label for="user-email">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email*" required>
+                    <span>Email*</span>
+                </label>
+                <label for="user-message">
+                    <textarea name="user-message" id="user-message" placeholder="How can we serve you?"></textarea>
+                    <span>How can we serve you?</span>
+                </label>
+                <label for="files">
+                    <input type="file" name="files" id="files">
+                </label>
                 <button name="send">Send</button>
             </form>
         </section>
-        <section class="contact-information">
-            <h2>Special Requests?</h2>
-            <p>Do you have an upcoming event that needs some barbecue Brisket? Drop us a line, and we'll get back to you
-                soon. Need a special order of smoked Brisket other than Saturday, lets us know.</p>
-            <p><b>Opening Hours:</b>Saturday 11:00am - 4:00pm</p>
-            <p><b>Address:</b>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
-            <p><b>Phone:</b><a href="tel:250-714-5999">250-714-5999</a></p>
-            <iframe width="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        <section class="contact-information content-width">
+            <div> <!-- used for styling for desktop -->
+                <h2>Special Requests?</h2>
+                <p>Do you have an upcoming event that needs some barbecue Brisket? Drop us a line, and we'll get back to
+                    you soon. Need a special order of smoked Brisket other than Saturday, lets us know.</p>
+                <p><b>Opening Hours:&nbsp;&nbsp;</b>Saturday 11:00am - 4:00pm</p>
+                <p><b>Phone:&nbsp;&nbsp;</b><a href="tel:250-714-5999">250-714-5999</a></p>
+                <p><b>Address:&nbsp;&nbsp;</b>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+            </div>
+            <iframe width="200" frameborder="0" scrolling="no" marginheight="100" marginwidth="0"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=801%20Dingwall%20Road,%20Courtenay,%20British%20Columbia%20V9N%203S4,%20Canada+(Big%20Brisket%20Barbecue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
         </section>

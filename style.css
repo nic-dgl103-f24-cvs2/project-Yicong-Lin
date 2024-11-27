@@ -12,7 +12,7 @@ body {
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
     margin: 0;
-    background-color: #fadcdc;
+    background-color: #faefef;
 }
 
 /*-------- TYPOGRAPHY --------*/
@@ -270,6 +270,69 @@ section.service img {
 }
 /*-------- end of SERVICE SECTION --------*/
 /*======== end of Recipes & Service Page ========*/
+
+/*======== Contact Page ========*/
+section.contact-form form {
+  border: 1px solid #5c5b5b;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.contact-form label {
+  position: relative;
+  margin-bottom: 20px;
+  /* padding-top: 10px; */
+}
+
+section.contact-form input, textarea, button {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+section.contact-form textarea {
+  height: 300px;
+}
+
+section.contact-form input::placeholder, textarea::placeholder{
+  opacity: 0;
+}
+
+section.contact-form span {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform:translateY(0px);
+  transition-duration: 500ms;
+}
+
+section.contact-form label:focus-within>span, input:not(:placeholder-shown) + span, textarea:not(:placeholder-shown) + span {
+  color: rgb(107, 29, 29);
+  transform:translateY(-15px);
+}
+
+section.contact-form button {
+  margin: auto;
+  width: auto;
+  padding: 10px 20px;
+  background-color: rgb(107, 29, 29);
+  color: #f1bb08;
+}
+
+section.contact-information p, iframe {
+  text-align: left;
+}
+
+section.contact-information iframe {
+  width: 100%;
+  border: 1px solid #5c5b5b;
+  border-radius: 8px;
+  height: 300px;
+}
+/*======== end of Contact Page ========*/
 
 /*-------- FOOTER --------*/
 footer {
