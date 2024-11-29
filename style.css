@@ -305,13 +305,13 @@ section.contact-form span {
   position: absolute;
   top: 0;
   left: 5px;
-  transform:translateY(0px);
+  transform: translateY(0px);
   transition-duration: 500ms;
 }
 
 section.contact-form label:focus-within>span, input:not(:placeholder-shown) + span, textarea:not(:placeholder-shown) + span {
   color: rgb(107, 29, 29);
-  transform:translateY(-18px);
+  transform: translateY(-18px);
 }
 
 section.contact-form button {
@@ -375,6 +375,11 @@ footer * {
   .content-width {
     width: 80%;
     max-width: 1800px;
+  }
+
+  a.button:hover {
+    background-color: darkslategray;
+    transition: background-color 1s;
   }
 
   /*-------- large HEADER --------*/
