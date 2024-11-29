@@ -374,6 +374,7 @@ footer * {
 
   .content-width {
     width: 80%;
+    max-width: 1800px;
   }
 
   /*-------- large HEADER --------*/
