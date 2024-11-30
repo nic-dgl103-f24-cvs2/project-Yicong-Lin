@@ -246,7 +246,6 @@ section.recipes ul.sub-menu li {
 }
 
 section.recipes p.price {
-  float: right;
   position: absolute;
   top: 2px;
   right: 10px;
@@ -320,6 +319,10 @@ section.contact-form button {
   padding: 10px 20px;
   background-color: rgb(107, 29, 29);
   color: #f1bb08;
+}
+
+section.contact-information table {
+  display: none;
 }
 
 section.contact-information p, iframe {
@@ -498,12 +501,37 @@ footer * {
   }
 
   section.contact-information div {
-    width: 50%;
+    width: 33%;
     padding-right: 15px;
   }
 
+  section.contact-information p.opening-hours {
+    display: none;
+  }
+
+  section.contact-information table {
+    display: table;
+    width: 33%;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid lightgrey;
+  }
+
+  section.contact-information table caption {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  section.contact-information thead {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #770404;
+  }
+
   section.contact-information iframe {
-    width: 50%;
+    width: 33%;
   }
   /*======== end of Contact Page of Desktop ========*/
 
