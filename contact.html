@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="logo-background">
+        <div class="content-width">
+            <img src="./images/logo.jpg" width="50" alt="Big Brisket Barbecue">
+            <nav>
+                <ul id="nav-items">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./recipes-service.html">Recipes & Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-form content-width">
+            <h1>Contact Us</h1>
+            <form action="#" method="post">
+                <label for="user-name">
+                    <input type="text" name="user-name" id="user-name" placeholder="Name">
+                    <span>Name</span>
+                </label>
+                <label for="user-email">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email*" required>
+                    <span>Email*</span>
+                </label>
+                <label for="user-message">
+                    <textarea name="user-message" id="user-message" placeholder="How can we serve you?"></textarea>
+                    <span>How can we serve you?</span>
+                </label>
+                <label for="files">
+                    <input type="file" name="files" id="files">
+                </label>
+                <button name="send">Send</button>
+            </form>
+        </section>
+        <section class="contact-information content-width">
+            <div> <!-- used for styling for desktop -->
+                <h2>Special Requests?</h2>
+                <p>Do you have an upcoming event that needs some barbecue Brisket? Drop us a line, and we'll get back to
+                    you soon. Need a special order of smoked Brisket other than Saturday, lets us know.</p>
+                <p class="opening-hours"><b>Opening Hours:&nbsp;&nbsp;</b>Saturday 11:00am - 4:00pm</p>
+                <p><b>Phone:&nbsp;&nbsp;</b><a href="tel:250-714-5999">250-714-5999</a></p>
+                <p><b>Address:&nbsp;&nbsp;</b>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+            </div>
+            <table>
+                <caption>Opening Hours</caption>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;" scope="col">Day</th>
+                        <th style="width: 70%;" scope="col">Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday</th>
+                        <td>11:00am - 4:00pm</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday</th>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+            <iframe width="200"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=801%20Dingwall%20Road,%20Courtenay,%20British%20Columbia%20V9N%203S4,%20Canada+(Big%20Brisket%20Barbecue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+        </section>
+    </main>
+    <footer class="logo-background">
+        <div class="content-width">
+            <img class="logo" src="./images/logo.jpg" width="100" alt="Big Brisket Barbecue">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./recipes-service.html">Recipes & Service</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <p>Phone: <a href="tel:250-714-5999">250-714-5999</a></p>
+                <a>
+                    <!-- This image is downloaded from www.freepik.com -->
+                    <img src="./images/instagram.png" width="30" alt="Instagram">
+                </a>
+                <a>
+                    <!-- This image is downloaded from www.freepik.com -->
+                    <img src="./images/twitter.png" width="30" alt="Twitter">
+                </a>
+            </div>
+            <p class="address">Address: 801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+        </div>
+        <div class="disclaimer">This is a fictional website that was designed and coded as an educational exercise. It
+            is not intended to be seen outside of the class environment. None of the content and images were approved by
+            the business owner.</div>
+    </footer>
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+</body>
+
+</html>
